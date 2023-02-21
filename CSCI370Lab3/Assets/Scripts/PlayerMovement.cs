@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     private bool jumping = false;
+    private bool secondJump = false;
 
     public float runSpeed = 5f;
 
@@ -33,10 +34,14 @@ public class PlayerMovement : MonoBehaviour
         } else {
             spriteRenderer.flipX = false;
         }
-        if (Input.GetKeyDown(KeyCode.Space) && !jumping) {
+        if (Input.GetKeyDown(KeyCode.Space) && (!jumping || !secondJump)) {
             print("Space!");
             body.AddForce(new Vector2(0, 400));
-            jumping = true;
+            if (!jumping) {
+                jumping = true;
+            } else {
+                secondJump = true;
+            }
         }
     }
 
@@ -48,5 +53,6 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision2D) {
         jumping = false;
+        secondJump = false;
     }
 }
