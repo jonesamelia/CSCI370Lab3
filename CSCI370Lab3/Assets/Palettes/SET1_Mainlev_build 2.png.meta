@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -5054,27 +5054,27 @@ TextureImporter:
       SET1_Mainlev_build_98: 168376926
       SET1_Mainlev_build_32: 1765943288
       SET1_Mainlev_build_26: -1487775475
-      SET1_Mainlev_build_71: -397148492
       SET1_Mainlev_build_112: 142385002
+      SET1_Mainlev_build_170: 1025767475
       SET1_Mainlev_build_146: -1998785508
       SET1_Mainlev_build_83: 946236002
-      SET1_Mainlev_build_170: 1025767475
+      SET1_Mainlev_build_224: 1053538928
       SET1_Mainlev_build_31: 1630901299
       SET1_Mainlev_build_22: -1314380110
+      SET1_Mainlev_build_71: -397148492
       SET1_Mainlev_build_149: -1106305151
-      SET1_Mainlev_build_176: 917410952
       SET1_Mainlev_build_182: 1821138708
       SET1_Mainlev_build_150: -1650142159
       SET1_Mainlev_build_226: 1044821478
-      SET1_Mainlev_build_224: 1053538928
+      SET1_Mainlev_build_176: 917410952
       SET1_Mainlev_build_46: 935371261
       SET1_Mainlev_build_74: 731629325
-      SET1_Mainlev_build_211: 2062025437
+      SET1_Mainlev_build_229: -59746296
       SET1_Mainlev_build_231: 2139180108
+      SET1_Mainlev_build_211: 2062025437
       SET1_Mainlev_build_117: -596782587
       SET1_Mainlev_build_134: 783034124
       SET1_Mainlev_build_164: -323517172
-      SET1_Mainlev_build_229: -59746296
       SET1_Mainlev_build_102: -885448686
       SET1_Mainlev_build_181: -1250440018
       SET1_Mainlev_build_208: -647915240
@@ -5123,15 +5123,16 @@ TextureImporter:
       SET1_Mainlev_build_62: -1935097191
       SET1_Mainlev_build_77: -526772509
       SET1_Mainlev_build_36: -796048372
+      SET1_Mainlev_build_217: -1913486953
       SET1_Mainlev_build_109: -1678488857
       SET1_Mainlev_build_206: -2141202040
       SET1_Mainlev_build_199: 399310898
       SET1_Mainlev_build_155: -777318655
-      SET1_Mainlev_build_66: -1462301668
       SET1_Mainlev_build_34: 1148141244
+      SET1_Mainlev_build_66: -1462301668
       SET1_Mainlev_build_101: -614055527
-      SET1_Mainlev_build_161: 503901209
       SET1_Mainlev_build_37: 1703717745
+      SET1_Mainlev_build_161: 503901209
       SET1_Mainlev_build_24: -1857586832
       SET1_Mainlev_build_57: 497304111
       SET1_Mainlev_build_158: 155884353
@@ -5142,7 +5143,6 @@ TextureImporter:
       SET1_Mainlev_build_2: 2026323944
       SET1_Mainlev_build_67: -2104698661
       SET1_Mainlev_build_186: 149444195
-      SET1_Mainlev_build_217: -1913486953
       SET1_Mainlev_build_97: 912401677
       SET1_Mainlev_build_44: -1872630949
       SET1_Mainlev_build_120: -1973390146
