@@ -36,10 +36,11 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && (!jumping || !secondJump)) {
             print("Space!");
-            body.AddForce(new Vector2(0, 400));
             if (!jumping) {
+                body.AddForce(new Vector2(0, 400));
                 jumping = true;
             } else {
+                body.AddForce(new Vector2(0, 200));
                 secondJump = true;
             }
         }
