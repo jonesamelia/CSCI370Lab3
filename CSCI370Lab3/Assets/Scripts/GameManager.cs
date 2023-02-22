@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -8,10 +9,30 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager Instance {get; private set;}
+
+    public GameObject dialogBox;
+    public TextMeshProUGUI dialogText;
     public GameObject curtain;
     public GameObject canvas;
     private bool raiseLower = false;
     public GameObject mainScreen;
+
+    public void DialogShow(string text) {
+        dialogBox.SetActive(true);
+        StopAllCoroutines();
+        StartCoroutine(TypeText(text));
+    }
+    public void DialogHide(){
+        dialogBox.SetActive(false);
+    }
+
+    IEnumerator TypeText(string text) {
+        dialogText.text = "";
+        foreach(char c in text.ToCharArray()) {
+            dialogText.text += c;
+            yield return new WaitForSeconds(0.02f);
+        }
+    }
 
     void Awake(){
         if (Instance == null){
@@ -63,7 +84,9 @@ public class GameManager : MonoBehaviour
 
     StartCoroutine(ColorLerpFunction(false, 1));
     }
-    
+    public void ChangeScene(string scene){
+        LoadYourAsyncScene(scene);
+    }
     public void StartGame() {
         StartCoroutine(LoadYourAsyncScene("SampleScene"));
         mainScreen.SetActive(false);
