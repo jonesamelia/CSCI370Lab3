@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   curtain: {fileID: 1213452264}
+  canvas: {fileID: 1782023382}
   mainScreen: {fileID: 1556663418}
 --- !u!1 &388385943
 GameObject:

@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("horizontal", horizontal);
         if (horizontal < 0) {
             spriteRenderer.flipX = true;
-        } else {
+        } else if (horizontal > 0) {
             spriteRenderer.flipX = false;
         }
         if (Input.GetKeyDown(KeyCode.Space) && (!jumping || !secondJump)) {
