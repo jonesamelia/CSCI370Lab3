@@ -9,13 +9,15 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance {get; private set;}
     public GameObject curtain;
+    public GameObject canvas;
     private bool raiseLower = false;
     public GameObject mainScreen;
 
     void Awake(){
         if (Instance == null){
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(gameObject); 
+            DontDestroyOnLoad(canvas);
         } else {
         Destroy(gameObject);
     }
