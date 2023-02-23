@@ -10,6 +10,8 @@ public class FollowCam : MonoBehaviour
 
     public float easing;
 
+    [SerializeField] private AudioSource background_music;
+
     private float lBound;
     private float rBound;
     private float uBound;
@@ -18,11 +20,10 @@ public class FollowCam : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-    lBound = boundaryPercent * Camera.main.pixelWidth;
-    rBound = Camera.main.pixelWidth - lBound;
-    dBound = boundaryPercent * Camera.main.pixelHeight;
-    uBound = Camera.main.pixelHeight - dBound;
+        lBound = boundaryPercent * Camera.main.pixelWidth;
+        rBound = Camera.main.pixelWidth - lBound;
+        dBound = boundaryPercent * Camera.main.pixelHeight;
+        uBound = Camera.main.pixelHeight - dBound;
     }
 
     void FixedUpdate() {
