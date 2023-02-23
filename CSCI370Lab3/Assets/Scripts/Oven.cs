@@ -8,6 +8,7 @@ public class Oven : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collider2D) {
         print("Entered..");
         if (collider2D.gameObject.CompareTag("Player")) {
+            print("player");
             GameManager.Instance.ChangeScene(nextScene);
         }
     }

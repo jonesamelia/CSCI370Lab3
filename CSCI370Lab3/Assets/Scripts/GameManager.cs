@@ -70,11 +70,13 @@ public class GameManager : MonoBehaviour
 
     IEnumerator LoadYourAsyncScene(string scene)
     {
+        print("lowering curtain");
         StartCoroutine(ColorLerpFunction(true, 1));
         while (raiseLower)
         {
             yield return null;
         }
+        print("curtain down");
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(scene);
 
     while(!asyncLoad.isDone)
@@ -85,10 +87,13 @@ public class GameManager : MonoBehaviour
     StartCoroutine(ColorLerpFunction(false, 1));
     }
     public void ChangeScene(string scene){
-        LoadYourAsyncScene(scene);
+       print("scene");
+        StartCoroutine(LoadYourAsyncScene(scene));
     }
+
+    
     public void StartGame() {
-        StartCoroutine(LoadYourAsyncScene("SampleScene"));
+        StartCoroutine(LoadYourAsyncScene("Intro"));
         mainScreen.SetActive(false);
     }
     // Start is called before the first frame update
