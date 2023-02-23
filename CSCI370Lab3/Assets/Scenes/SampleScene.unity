@@ -959,6 +959,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontal: 0
+  land_noise: {fileID: 0}
+  jump_noise: {fileID: 0}
   runSpeed: 10
 --- !u!60 &419689698
 PolygonCollider2D:
@@ -1404,6 +1406,7 @@ MonoBehaviour:
   sprite: {fileID: 419689691}
   boundaryPercent: 0.4
   easing: 0.01
+  background_music: {fileID: 0}
 --- !u!1 &537026920
 GameObject:
   m_ObjectHideFlags: 0
@@ -10021,7 +10024,7 @@ GameObject:
   - component: {fileID: 1751328439}
   m_Layer: 0
   m_Name: Walls/Barriers
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23664,7 +23667,7 @@ GameObject:
   - component: {fileID: 1988425912}
   m_Layer: 0
   m_Name: Platforms
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
