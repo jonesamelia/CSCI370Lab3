@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
+    [SerializeField] private AudioSource land_noise;
+    [SerializeField] private AudioSource jump_noise;
+
     private bool jumping = false;
     private bool secondJump = false;
 
@@ -22,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        land_noise = GetComponent<AudioSource>();
+        jump_noise = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -38,9 +43,11 @@ public class PlayerMovement : MonoBehaviour
             print("Space!");
             if (!jumping) {
                 body.AddForce(new Vector2(0, 400));
+                StartCoroutine("JumpSound");
                 jumping = true;
             } else {
                 body.AddForce(new Vector2(0, 200));
+                StartCoroutine("JumpSound");
                 secondJump = true;
             }
         }
@@ -53,7 +60,24 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D collision2D) {
-        jumping = false;
-        secondJump = false;
+        if (collision2D.gameObject.tag == "Platform") {
+            jumping = false;
+            secondJump = false;
+            StartCoroutine("LandSound");
+        }
+    }
+
+    IEnumerator LandSound()
+    {
+        land_noise.Play();
+        yield return new WaitForSeconds(GetComponent<AudioSource>().clip.length);
+        
+    }
+
+    IEnumerator JumpSound()
+    {
+        jump_noise.Play();
+        yield return new WaitForSeconds(GetComponent<AudioSource>().clip.length);
+        
     }
 }
