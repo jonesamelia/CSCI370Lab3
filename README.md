@@ -1,4 +1,4 @@
-# CSCI370Lab3
+# CSCI 370 Lab 3
 Amelia Jones and Mark Johnson
 
 Name of Game: A Baker's Journey
