@@ -424,7 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de7f39489f675974d9abdc5dfe4c11ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: HardLevel
+  nextScene: MedLevel
 --- !u!61 &221855642
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9570,6 +9570,7 @@ MonoBehaviour:
   curtain: {fileID: 2146610541}
   canvas: {fileID: 501030943}
   mainScreen: {fileID: 1681802177}
+  menuButton: {fileID: 0}
 --- !u!4 &1506928230
 Transform:
   m_ObjectHideFlags: 0
