@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de7f39489f675974d9abdc5dfe4c11ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: HardLevel
+  nextScene: SampleScene
 --- !u!61 &325555812
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32586,7 +32586,7 @@ Tilemap:
   - m_RefCount: 3
     m_Data: {fileID: -118429204, guid: 7f226c7b3e1b75a41b68c4fa370663f0, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 155884353, guid: 7f226c7b3e1b75a41b68c4fa370663f0, type: 3}
+    m_Data: {fileID: 1707122815, guid: 7f226c7b3e1b75a41b68c4fa370663f0, type: 3}
   - m_RefCount: 18
     m_Data: {fileID: -791328439, guid: 7f226c7b3e1b75a41b68c4fa370663f0, type: 3}
   - m_RefCount: 3
@@ -32601,8 +32601,8 @@ Tilemap:
     m_Data: {fileID: 460353996, guid: 7f226c7b3e1b75a41b68c4fa370663f0, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -821235637, guid: 7f226c7b3e1b75a41b68c4fa370663f0, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 155884353, guid: 7f226c7b3e1b75a41b68c4fa370663f0, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 679
     m_Data:

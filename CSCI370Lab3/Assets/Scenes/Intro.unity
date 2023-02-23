@@ -15496,4 +15496,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de7f39489f675974d9abdc5dfe4c11ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: SampleScene
+  nextScene: EasyLevel
