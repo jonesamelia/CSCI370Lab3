@@ -15,8 +15,10 @@ public class Death : MonoBehaviour
         }
     }
     IEnumerator DiedText(){
-        yield return new WaitForSeconds(2f);
+        GameManager.Instance.DialogShow("You died.");
+        yield return new WaitForSeconds(1);
         GameManager.Instance.ChangeScene(scene);
+        //GameManager.Instance.DialogHide();
     }
     // Start is called before the first frame update
     void Start()

@@ -85,12 +85,14 @@ public class GameManager : MonoBehaviour
     }
 
     StartCoroutine(ColorLerpFunction(false, 1));
+    DialogHide();
     }
     public void ChangeScene(string scene){
        print("scene");
         StartCoroutine(LoadYourAsyncScene(scene));
     }
 
+    
     
     public void StartGame() {
         StartCoroutine(LoadYourAsyncScene("Intro"));
