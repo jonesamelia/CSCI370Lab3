@@ -23257,7 +23257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundSize: 64
-  parallaxSpeed: 0.5
+  parallaxSpeed: 0.2
 --- !u!1 &1796620177
 GameObject:
   m_ObjectHideFlags: 0
