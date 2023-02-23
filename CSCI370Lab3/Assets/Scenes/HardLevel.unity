@@ -22816,7 +22816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 793824679}
   boundaryPercent: 0.4
-  easing: 0.01
+  easing: 0.001
   background_music: {fileID: 2139729175}
 --- !u!81 &2139729172
 AudioListener:
