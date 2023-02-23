@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public GameObject canvas;
     private bool raiseLower = false;
     public GameObject mainScreen;
+    public GameObject menuButton;
 
     public void DialogShow(string text) {
         dialogBox.SetActive(true);
@@ -92,7 +93,10 @@ public class GameManager : MonoBehaviour
         StartCoroutine(LoadYourAsyncScene(scene));
     }
 
-    
+    public void EndGame(){
+        menuButton.SetActive(true);
+        DialogShow("You have completed all of the levels!");
+    }
     
     public void StartGame() {
         StartCoroutine(LoadYourAsyncScene("Intro"));

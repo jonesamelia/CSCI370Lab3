@@ -423,6 +423,7 @@ MonoBehaviour:
   curtain: {fileID: 1213452264}
   canvas: {fileID: 1782023382}
   mainScreen: {fileID: 122127193}
+  menuButton: {fileID: 247138521}
 --- !u!1 &361998573
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,7 +483,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1046955069c8d4a40919773b1ce6b07f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c11bd7d770141cf48bcf20905b2a10b4, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1700,7 +1701,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
