@@ -1,11 +1,11 @@
 # CSCI 370 Lab 3
 Amelia Jones and Mark Johnson
 
-Name of Game: A Baker's Journey
+Name of Game: A Baker's Mission
 
 Intent: To give the player an enjoyable time parkouring as a baker in the forest
 
-Narrative Structure: Jerome, a world class baker, has to use the finest ingredients in his pies. He will journey deep into forrests to gather the best berries even though the trip is dangerous. He often sets up his oven in these forrests so he can be closer to the ingredients. Help Jermome navigate his way back to his oven so he can bake the best pies!
+Narrative Structure: Jerome, a world class baker, has to use the finest ingredients in his pies. He will journey deep into forests to gather the best berries even though the trip is dangerous. He often sets up his oven in these forests so he can be closer to the ingredients. Help Jerome navigate his way back to his oven so he can bake the best pies!
 
 Mechanics: The user is able to move Jerome using WASD and can jump with the space bar up to two times!
 
@@ -15,8 +15,8 @@ Joys: Getting the game to come together! Having different scenes and levels is a
 
 Struggles: Merge conflicts are really annoying and we don't always know why they happen. Some parts in getting the scenes to go to the correct one is hard.
 
-Attributions: Landing Sound: https://opengameart.org/content/jump-landing-sound, Background Music: https://opengameart.org/content/jump-and-run-tropical-mix, Jump Sound: https://opengameart.org/content/slime-jump-effect Tilemap: https://szadiart.itch.io/platformer-fantasy-set1
+Attributions: Landing Sound: https://opengameart.org/content/jump-landing-sound, Background Music: https://opengameart.org/content/jump-and-run-tropical-mix, Jump Sound: https://opengameart.org/content/slime-jump-effect, Tilemap: https://szadiart.itch.io/platformer-fantasy-set1, Baker sprite: https://www.freepik.com/free-vector/cafe-worker-character-icon-set_4321718.htm
 
-Amelia: Amelia worked on the initial design of the game picking out the tilemaps and main character sprite along with creating the repository. This gave a really good starting point for us to get started on adding pieces. Amelia also worked on getting scripts correct so scenes can interact with each other. She handled a majority of the game manager. 
+Amelia: Amelia worked on the initial design of the game picking out the tilemaps and main character sprite along with creating the repository. This gave a really good starting point for us to get started on adding pieces. Amelia also worked on getting scripts correct so scenes can interact with each other. She handled a majority of the game manager and UI. 
 
 Mark: Mark worked on adding in simple scripts we worked on in class and implemented them onto the sprites. This gave us an good idea of what capabilities we had and how we could expand on them. Mark also created the levels with the tilemap Amelia picked out. He handled some smaller aesthetics of audio and getting small places to look prettier. 
