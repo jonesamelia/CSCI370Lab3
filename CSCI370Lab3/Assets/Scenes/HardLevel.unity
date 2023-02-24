@@ -9816,7 +9816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundSize: 64
-  parallaxSpeed: 0.5
+  parallaxSpeed: 0.2
 --- !u!4 &1094720634
 Transform:
   m_ObjectHideFlags: 0
@@ -24842,7 +24842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundSize: 64
-  parallaxSpeed: 0.2
+  parallaxSpeed: 0.5
 --- !u!4 &1790017528
 Transform:
   m_ObjectHideFlags: 0

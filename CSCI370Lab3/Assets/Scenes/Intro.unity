@@ -293,6 +293,7 @@ MonoBehaviour:
   curtain: {fileID: 0}
   canvas: {fileID: 0}
   mainScreen: {fileID: 0}
+  menuButton: {fileID: 0}
 --- !u!1 &373679399
 GameObject:
   m_ObjectHideFlags: 0
@@ -11029,7 +11030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundSize: 64
-  parallaxSpeed: 0.2
+  parallaxSpeed: 0.5
 --- !u!4 &1570627252
 Transform:
   m_ObjectHideFlags: 0
@@ -15110,7 +15111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundSize: 64
-  parallaxSpeed: 0.5
+  parallaxSpeed: 0.2
 --- !u!4 &1777085839
 Transform:
   m_ObjectHideFlags: 0
