@@ -84,9 +84,12 @@ public class GameManager : MonoBehaviour
     {
         yield return null;
     }
-
-    StartCoroutine(ColorLerpFunction(false, 1));
     DialogHide();
+    if(scene != "Menu"){
+        mainScreen.SetActive(false);
+    }
+    StartCoroutine(ColorLerpFunction(false, 1));
+    
     }
     public void ChangeScene(string scene){
        print("scene");
@@ -103,8 +106,8 @@ public class GameManager : MonoBehaviour
    // }
     
     public void StartGame() {
-        StartCoroutine(LoadYourAsyncScene("HardLevel"));
-        mainScreen.SetActive(false);
+        StartCoroutine(LoadYourAsyncScene("Intro"));
+        
     }
     // Start is called before the first frame update
     void Start()

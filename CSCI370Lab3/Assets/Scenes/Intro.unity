@@ -420,7 +420,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10.395966, y: 2.218831}
+  m_Size: {x: 10.395966, y: 10}
   m_EdgeRadius: 0
 --- !u!114 &428307291
 MonoBehaviour:
@@ -443,7 +443,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428307289}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.36, y: 0.03, z: -9.995086}
+  m_LocalPosition: {x: 28.36, y: 3.13, z: -9.995086}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -492,7 +492,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.1614513, y: 1.3750448}
+  m_Size: {x: 9, y: 9}
   m_EdgeRadius: 0
 --- !u!114 &444117525
 MonoBehaviour:
@@ -515,7 +515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444117523}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.4498634, y: -0.20874472, z: -9.995086}
+  m_LocalPosition: {x: 2.76, y: 2.79, z: -9.995086}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5378,7 +5378,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -15232,7 +15232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2060042528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15410,6 +15410,7 @@ GameObject:
   - component: {fileID: 2132391620}
   - component: {fileID: 2132391619}
   - component: {fileID: 2132391621}
+  - component: {fileID: 2132391622}
   m_Layer: 0
   m_Name: Oven
   m_TagString: Untagged
@@ -15498,3 +15499,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: EasyLevel
+--- !u!61 &2132391622
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132391618}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.82, y: 4.31}
+    newSize: {x: 2.82, y: 4.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.82, y: 4.31}
+  m_EdgeRadius: 0

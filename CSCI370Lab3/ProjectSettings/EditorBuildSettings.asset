@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/MedLevel.unity
+    guid: 6c87cb8de4fbd58498683e13ce9b740f
+  - enabled: 1
     path: Assets/Scenes/HardLevel.unity
     guid: 4a58f3ccd6ce8394486c18bc48918ce1
   m_configObjects: {}
