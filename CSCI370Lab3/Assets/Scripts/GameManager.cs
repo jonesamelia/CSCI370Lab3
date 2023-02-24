@@ -97,9 +97,13 @@ public class GameManager : MonoBehaviour
         menuButton.SetActive(true);
         DialogShow("You have completed all of the levels!");
     }
+   //public void BackToMenu(){
+   //     ChangeScene(Menu)
+    //    mainScreen.SetActive(true);
+   // }
     
     public void StartGame() {
-        StartCoroutine(LoadYourAsyncScene("Intro"));
+        StartCoroutine(LoadYourAsyncScene("HardLevel"));
         mainScreen.SetActive(false);
     }
     // Start is called before the first frame update
